@@ -25,17 +25,12 @@
             El programa crea cada subproceso con la clase <i>ThreadStart</i> pasando como argumento para el primer subproceso el método <i>PrintLog10</i> que imprime el logaritmo del numero 10 y para el segundo subproceso el método <i>Squared</i> que imprime el cuadrado.
         Una vez creados ambos subprocesos se invoca el método <i>Start()</i> de cada uno de ellos, para pasarlos al estado <b>Running</b>.
         </p>
-        <div><b>Fig 2 la salida del programa en ejecución</b></div><br>
         <div>
-<a href="http://clkme.in/qYqn5O" target="_blank">
 <IMG src="picture_library/SThreadSample/SThreadout.png">
-</a>
 </div><br>
         <p align="justify">Al terminar la ejecución de cada uno de los subprocesos, imprime los milisegundos que tardo en ejecutarse.</p>
         <div>
-<a href="http://clkme.in/qYqn5O" target="_blank">
 <img src="picture_library/SThreadSample/SThreadout2.png">
-</a>
 </div>
 <br>
         
